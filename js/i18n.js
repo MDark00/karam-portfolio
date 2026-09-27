@@ -1,0 +1,166 @@
+/* Arabic copy for every [data-i18n] key. English lives in the HTML itself,
+   so the page reads fully in English before any script runs. */
+window.I18N = {
+  ar: {
+    "brand": "كرم خليل",
+    "loader.roles": "أمن سيبراني · دعم فني · تطوير",
+    "loader.skip": "اضغط للتخطي",
+    "nav.touch": "تواصل معي",
+    "m.home": "الرئيسية",
+    "m.about": "عنّي",
+    "m.do": "ماذا أعمل",
+    "m.exp": "الخبرات",
+    "m.wins": "الإنجازات",
+    "m.certs": "الشهادات",
+    "m.contact": "تواصل",
+    "l.email": "البريد",
+    "l.phone": "الهاتف",
+    "l.based": "المكان",
+    "v.amman": "عمّان، الأردن",
+
+    "h.hey": "مرحباً، اسمي",
+    "h.first": "كرم",
+    "h.last": "خليل<span class=\"bang\">!</span>",
+    "roles.aria": "اعرضني بصفتي",
+    "r.sec": "الأمن",
+    "r.it": "الدعم الفني",
+    "r.dev": "المطوّر",
+
+    "a.label": "(عنّي)",
+    "a.quote": "أبني التطبيقات، لذلك أعرف <em>كيف تنكسر</em>. وأحمي الشبكات، لذلك أعرف كيف تُهاجَم. وأدعم الناس، لذلك أشرح كل شيء بكلمات بسيطة.",
+    "a.s1": "المركز الأول في تحدي تصعيد الصلاحيات على لينكس ضمن مسابقة محاربي السايبر 2025 في المركز الوطني للأمن السيبراني.",
+    "a.s2": "رخصة وشهادة وجائزة من Cisco وCentri والمركز الوطني للأمن السيبراني وجامعة العلوم التطبيقية وUdemy وغيرها.",
+    "a.s3": "أعلى تقدير في دبلومَي Pearson BTEC لتكنولوجيا المعلومات، وأدرس الآن بكالوريوس الأمن السيبراني في جامعة العلوم التطبيقية بمنحة 30%.",
+
+    "d.title": "ماذا أعمل",
+    "d.sub": "ثلاثة أدوار، شخص واحد",
+    "d.sec.l1": "الأمن السيبراني",
+    "d.sec.l2": "الفريق الأزرق والأحمر",
+    "d.sec.word": "أحمي",
+    "d.sec.role": "أخصائي أمن سيبراني",
+    "d.sec.p": "أتتبّع التهديدات في ملفات PCAP والسجلات، وأربط مؤشرات الاختراق عبر الأجهزة والشبكات، وأطابق النشاط مع إطار MITRE ATT&amp;CK، وأوثّق كل حادثة بوضوح.",
+    "d.it.l1": "الدعم الفني",
+    "d.it.l2": "كل يوم",
+    "d.it.word": "أدعم",
+    "d.it.role": "مسؤول دعم فني",
+    "d.it.p": "أحلّ مشاكل الأجهزة والبرامج والاتصال خطوة بخطوة، وأجهّز الحواسيب وملحقاتها، وأرشد المستخدمين غير التقنيين بصبر بالعربية أو الإنجليزية.",
+    "d.dev.l1": "تطوير متكامل",
+    "d.dev.l2": "ويب · موبايل · ألعاب",
+    "d.dev.word": "أبني",
+    "d.dev.role": "مطوّر Full-Stack",
+    "d.dev.p": "أبني تطبيقات ويب باستخدام React وNext.js وNode.js وLaravel، وتطبيقات موبايل بـFlutter، وألعاب ثنائية وثلاثية الأبعاد بـUnity، مع مراعاة OWASP Top 10 من البداية.",
+
+    "e.title": "الخبرات",
+    "e.range": "2023 — الآن",
+    "e.1.yr": "2025 – الآن",
+    "e.1.org": "المركز الوطني للأمن السيبراني",
+    "e.1.role": "متدرّب أمن سيبراني ومتسابق CTF",
+    "e.1.desc": "أتتبّع التهديدات في ملفات PCAP والسجلات، وأحقق في حوادث محاكاة، وأحلّ مشاكل أنظمة ويندوز ولينكس، وأشارك في مسابقات CTF محلية ودولية.",
+    "e.2.yr": "مستمر",
+    "e.2.org": "عمل مستقل",
+    "e.2.role": "مطوّر ذاتي التعلّم",
+    "e.2.desc": "أبني تطبيقات ويب متكاملة بـReact وNext.js وNode.js، وتطبيقات موبايل بـFlutter، وألعاباً ثنائية وثلاثية الأبعاد بـUnity.",
+    "e.3.role": "متدرّب تطوير الواجهات الخلفية",
+    "e.3.desc": "64 ساعة في بناء تطبيقات Laravel وMariaDB مع تسجيل الدخول والجلسات، محمية ضد حقن SQL وXSS وثغرات المصادقة.",
+    "e.4.role": "متدرّب تطوير الواجهات الأمامية",
+    "e.4.desc": "بنيت واجهات متجاوبة بـHTML وCSS وJavaScript، وعالجت مشاكل المستخدمين عبر المتصفحات والأجهزة.",
+
+    "w.t1": "أبرز",
+    "w.0.h": "المركز التاسع عالمياً في CSAW CTF",
+    "w.0.p": "حللنا في المركز التاسع على مستوى العالم، والأول على الأردن، والثالث في منطقة الشرق الأوسط وشمال أفريقيا مع فريق R00TK1T R41D3RS، بمجموع 8,434 نقطة في مسابقة CSAW CTF.",
+    "w.0.t1": "التاسع عالمياً",
+    "w.0.t4": "الأول على الأردن",
+    "w.0.t2": "الثالث في MENA",
+    "w.0.t3": "8,434 نقطة",
+    "w.t2": "الإنجازات",
+    "w.1.org": "المركز الوطني للأمن السيبراني",
+    "w.1.h": "المركز الأول وطنياً",
+    "w.1.p": "فزت بتحدي تصعيد الصلاحيات على لينكس في مسابقة محاربي السايبر 2025، ووصلت إلى صلاحيات root على نظام Kali Linux تحت ضغط الوقت.",
+    "w.1.t1": "المركز الأول",
+    "w.1.t2": "تصعيد الصلاحيات",
+    "w.1.t3": "200 دينار",
+    "w.2.h": "السادس من 1,252 فريقاً",
+    "w.2.p": "حللت سادساً في تصفيات Zod1ak CTF مع فريق Rootkit Raiders، في تحديات أنظمة وشبكات ضد الوقت.",
+    "w.2.t1": "التصفيات",
+    "w.2.t3": "أفضل 0.5%",
+    "w.2.of": "من أصل 1,252 فريقاً",
+    "w.3.h": "منحة وأعلى الدرجات",
+    "w.3.p": "حللت خامساً في مسابقة مملكة السايبر 2 في جامعة العلوم التطبيقية ونلت منحة 30% لبكالوريوس الأمن السيبراني، إضافة إلى تقدير Distinction* في دبلومَي BTEC.",
+    "w.3.t1": "المركز الخامس",
+    "w.3.t2": "منحة 30%",
+
+    "t.title": "الأدوات",
+    "t.sub": "أدوات أستخدمها",
+
+    "c.t1": "الرخص",
+    "c.t2": "والشهادات",
+    "c.all": "جميعها (24) على لينكدإن ↗",
+    "c.s0": "شهادة",
+    "cat.sec": "أمن سيبراني",
+    "cat.comp": "مسابقة",
+    "cat.dev": "تطوير",
+    "c.s2": "مسابقات وجوائز",
+    "c.hint": "اسحب الصفوف، واضغط على أي شهادة لرؤية تفاصيلها ورابطها.",
+    "c.also.l": "أكملت أيضاً",
+    "c.also": "دورات Security Blue Team في تتبّع التهديدات، والتحقيق الجنائي الرقمي، وتحليل حركة الشبكة، وإدارة الثغرات، واختبار الاختراق، واستخبارات التهديدات",
+
+    "f.h": "تعال نبني أو نحمي أو نصلح <em>شيئاً</em> معاً!",
+    "f.btn": "انسخ<br>بريدي",
+    "f.site": "خريطة الموقع",
+    "f.contact": "التواصل",
+    "f.status": "الحالة",
+    "f.open": "متاح لوظائف الأمن والدعم الفني والتطوير",
+    "f.langs": "العربية · الإنجليزية",
+    "f.copy": "© 2026 · كرم خليل",
+    "f.hint": "اضغط على البريد أو الرقم لنسخه",
+    "v.close": "إغلاق",
+    "v.prev": "السابق",
+    "v.next": "التالي"
+  },
+
+  roles: {
+    en: [
+      { tag: "Hunt threats. Defend networks.", desc: "Threat hunting, digital forensics and incident response. 1st at NCSC Jordan’s Cyber Warriors 2025 and 9th worldwide at CSAW CTF.", id: "Cybersecurity Specialist" },
+      { tag: "Reliable IT. Patient support.", desc: "I keep computers, networks and people running smoothly, and explain every fix in plain Arabic or English.", id: "IT Support Officer" },
+      { tag: "Web, mobile & games.", desc: "Full-stack apps in React, Next.js, Node.js and Laravel, mobile apps in Flutter and games in Unity, built securely.", id: "Full-Stack Developer" }
+    ],
+    ar: [
+      { tag: "أتتبّع التهديدات وأحمي الشبكات.", desc: "تتبّع التهديدات والتحقيق الجنائي الرقمي والاستجابة للحوادث. المركز الأول في محاربي السايبر 2025، والتاسع عالمياً في CSAW CTF.", id: "أخصائي أمن سيبراني" },
+      { tag: "دعم فني موثوق وصبور.", desc: "أُبقي الحواسيب والشبكات والناس يعملون بسلاسة، وأشرح كل حل بلغة بسيطة بالعربية أو الإنجليزية.", id: "مسؤول دعم فني" },
+      { tag: "ويب وموبايل وألعاب.", desc: "تطبيقات متكاملة بـReact وNext.js وNode.js وLaravel، وتطبيقات موبايل بـFlutter، وألعاب بـUnity، مبنية بأمان.", id: "مطوّر Full-Stack" }
+    ]
+  },
+
+  ui: {
+    en: {
+      langAria: "اقرأ الموقع بالعربية", langLabel: "ع",
+      menuOpen: "Open menu", menuClose: "Close menu",
+      copied: "Copied ", copyFail: "Copy blocked here. Select it: ",
+      btnCopied: "Copied!", btnDefault: "Copy my<br>email",
+      clock: " in Amman (GMT+3)",
+      viewLinkedIn: "View on LinkedIn ↗", viewCred: "Show credential ↗", idCopied: "Copied",
+      cursor: { world: "#9", drag: "Drag", defend: "Defend", support: "Support", build: "Build", root: "Root", top: "Top 0.5%", fifth: "5th", copy: "Copy", open: "Open" }
+    },
+    ar: {
+      langAria: "Read the site in English", langLabel: "EN",
+      menuOpen: "افتح القائمة", menuClose: "أغلق القائمة",
+      copied: "تم النسخ: ", copyFail: "النسخ غير متاح هنا، حدّد النص: ",
+      btnCopied: "تم النسخ!", btnDefault: "انسخ<br>بريدي",
+      clock: " بتوقيت عمّان",
+      viewLinkedIn: "عرض على لينكدإن ↗", viewCred: "عرض الشهادة ↗", idCopied: "تم النسخ",
+      cursor: { world: "#9", drag: "اسحب", defend: "أحمي", support: "أدعم", build: "أبني", root: "root", top: "أفضل 0.5%", fifth: "الخامس", copy: "انسخ", open: "افتح" }
+    }
+  },
+
+  /* official issuer names in Arabic (certificate titles stay as issued, in English) */
+  issuers: {
+    "Applied Science Private University": "جامعة العلوم التطبيقية الخاصة",
+    "National Cyber Security Center (NCSC Jordan)": "المركز الوطني للأمن السيبراني",
+    "Cisco Networking Academy": "أكاديمية سيسكو للشبكات",
+    "Jordan Gaming Lab": "مختبر الألعاب الأردني",
+    "M3aarf": "منصة معارف",
+    "Token Masters for Software": "خبراء الرموز للبرمجيات",
+    "Kali Team": "فريق كالي"
+  },
+  highlights: { "200 JOD": "200 دينار", "#6 of 1,252": "#6 من 1,252", "5th place": "المركز الخامس", "40 hours": "40 ساعة", "64 hours": "64 ساعة" }
+};
